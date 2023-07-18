@@ -9,14 +9,72 @@
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans';
+    margin: 50px 240px;
+    border: 1px solid #FF42A5;
 }
 
-/* ============ Shared Styles ============ */
 
+/* ============ Shared Styles ============ */
+.pink-color {
+    color: #FF42A5;
+}
 
 
 /* ============== Nav Styles ============== */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+
+.logo-image {
+    width: 5.3rem;
+
+}
+
+.logo-title {
+    font-size: 2.8rem;
+    margin-left: 10px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3C354F;
+}
+
+.nav-follow-us {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 0;
+    display: flex;
+    gap: ;
+}
 
 
 
@@ -51,30 +109,10 @@ body {
 /* ***************** Responsive ****************** */
 
 /* =========== Mobile Device Styles =========== */
-@media screen and (max-width: 425px){
-    
-
-
-
-
-
-
-
-
-}
+@media screen and (max-width: 425px) {}
 
 
 
 
 /* =========== Medium Device Styles =========== */
-@media screen and (min-width: 425px) and (max-width: 768px){
-    
-
-
-
-
-
-
-
-    
-}
+@media screen and (min-width: 425px) and (max-width: 768px) {}
