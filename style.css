@@ -1,1 +1,43 @@
-uiuioiuoo
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* =========== Universal Styles =========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ============ Shared Styles ============ */
+
+
+
+/* ============== Nav Styles ============== */
+
+
+
+/* ============ Banner Styles ============ */
+
+
+
+/* ======== We are gamer(wag) Styles ====== */
+
+
+
+/* === Online Games Funny Videos Section(ogfv) Styles === */
+
+
+
+/* ========= Play Instantly Section(pi) Styles ========= */
+
+
+
+/* =========== Other Games Section(og) Styles =========== */
+
+
+
+/* =========== Footer Section Styles =========== */
