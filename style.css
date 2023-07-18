@@ -11,7 +11,7 @@
 body {
     font-family: 'Work Sans';
     margin: 50px 240px;
-    border: 1px solid #FF42A5;
+    /* border: 1px solid #FF42A5; */
 }
 
 
@@ -48,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    
+
 }
 
 .nav-ul {
@@ -71,8 +71,23 @@ body {
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 500;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
     border: 0;
 }
+
+.tiktok-icon {
+    padding-left: 15px;
+    color: #000000;
+    
+    
+}
+.youtube-icon{
+    padding-left: 15px;
+    color: red;
+    
+}.
+
 
 
 
