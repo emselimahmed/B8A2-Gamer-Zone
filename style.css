@@ -41,3 +41,40 @@ body {
 
 
 /* =========== Footer Section Styles =========== */
+
+
+
+
+
+
+
+/* ***************** Responsive ****************** */
+
+/* =========== Mobile Device Styles =========== */
+@media screen and (max-width: 425px){
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* =========== Medium Device Styles =========== */
+@media screen and (min-width: 425px) and (max-width: 768px){
+    
+
+
+
+
+
+
+
+    
+}
