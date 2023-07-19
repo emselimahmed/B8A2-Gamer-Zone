@@ -369,6 +369,7 @@ body {
 }
 .foot-logo-imgage{
     object-fit: cover;
+    cursor: pointer;
 }
 .our-story{
     color: white;
@@ -377,7 +378,35 @@ body {
     gap: 25px;
     padding-top: 20px;
 }
+.our-story>p {
+    cursor: pointer;
+}
+.social-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 
+}
+.fa-brands{
+    cursor: pointer;
+}
+
+.privecy-policy{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.privecy-policy>small{
+    cursor: pointer;
+}
+.copyright{
+    color: grey;
+    text-align: center;
+}
 
 
 
