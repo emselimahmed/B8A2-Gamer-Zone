@@ -32,29 +32,32 @@ body {
     display: flex;
     align-items: center;
     object-fit: cover;
+    gap: 20px;
 }
 
 .logo-image {
     width: 5.3rem;
+    cursor: pointer;
 
 }
 
 .logo-title {
     font-size: 2.8rem;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    cursor: pointer;
 }
 
 .nav-items {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 
 }
 
 .nav-ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 50px;
 
 }
 
@@ -63,30 +66,35 @@ body {
     font-size: 1.5rem;
     font-weight: 500;
     color: #3C354F;
+    cursor: pointer;
+    
 }
 
 .nav-follow-us {
     width: 262px;
     height: 56px;
-    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 500;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-.tiktok-icon {
-    padding-left: 15px;
+.tik-tok-icon {
     color: #000000;
+    cursor: pointer;
     
     
 }
 .youtube-icon{
-    padding-left: 15px;
     color: red;
-    
-}.
+    cursor: pointer;
+}
 
 
 
