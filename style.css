@@ -319,23 +319,56 @@ body {
 
 
 
+/* == Other Games Section(og) Styles ==== */
+.og-section{
+    margin-top: 200px;
+    position: relative;
+    left: 210px;
+}
+.og-container-1{
+    display: flex;
+}
+.og-container-2{
+    display: flex;
+}
+.all-games{
+    display: flex;
+    align-items: center;
+    
+}
+
+.all-games > span{
+    margin-right: 15px;
+}
+
+.all-games:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 30px;
+    color: #F948B2;
+}
 
 
 
+/* ====== Footer Section Styles ========= */
 
-
-
-
-
-
-
-/* =========== Other Games Section(og) Styles =========== */
-
-
-
-/* =========== Footer Section Styles =========== */
-
-
+.footer-section{
+    margin-top: 100px;
+    height: 60vh;
+    background: #0B0223;
+}
+.foot-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.white{
+    color: white;
+}
+.foot-logo-imgage{
+    object-fit: cover;
+}
 
 
 
