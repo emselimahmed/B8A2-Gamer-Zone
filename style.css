@@ -341,6 +341,7 @@ body {
 .all-games {
     display: flex;
     align-items: center;
+    cursor: pointer;
 
 }
 
