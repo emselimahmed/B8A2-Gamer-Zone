@@ -322,17 +322,20 @@ body {
 
 /* == Other Games Section(og) Styles ==== */
 .og-section {
-    margin-top: 200px;
-    position: relative;
-    left: 210px;
+    margin-top: 150px;
+
 }
 
 .og-container-1 {
     display: flex;
+    position: relative;
+    left: 120px;
 }
 
 .og-container-2 {
     display: flex;
+    position: relative;
+    left: 180px;
 }
 
 .all-games {
@@ -343,6 +346,7 @@ body {
 
 .all-games>span {
     margin-right: 15px;
+    padding: 10px;
 }
 
 .all-games:hover {
