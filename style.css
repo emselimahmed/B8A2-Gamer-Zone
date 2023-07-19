@@ -236,7 +236,7 @@ body {
 .ogfv-txt-area>p {
     color: #534C64;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 400;
     padding: 25px 0;
 }
@@ -259,6 +259,63 @@ body {
     font-weight: 400;
 }
 
+.ogfv-card-special {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.ogfv-card-special:hover {
+    opacity: 0.6;
+    border: 5px solid #FF42A5;
+    border-radius: 5px;
+}
+
+
+
+/* == Play Instantly Section(pi) Styles == */
+
+.pi-section{
+    margin: 35px 150px 50px 150px;
+}
+
+.pi-container{
+    display: flex;
+    justify-content: space-around;
+}
+.pi-txt-area {
+    width: 350px;
+    margin: auto;
+    text-align: right;
+}
+.pi-txt-area > h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.pi-txt-area>p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.pi-img-container{
+    position: relative;
+    left: 55px;
+}
+.pi-img-1{
+    width: 400px;
+    border-radius: 8px;
+}
+.pi-img-2{
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid white;
+    position: relative;
+    right: 500px;
+    top: 50px;
+}
 
 
 
@@ -269,16 +326,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-/* ========= Play Instantly Section(pi) Styles ========= */
 
 
 
