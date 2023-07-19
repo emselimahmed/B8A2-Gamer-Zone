@@ -166,8 +166,6 @@ body {
     gap: 20px;
 }
 
-.fa-solid {}
-
 .blue-btn {
     border-radius: 25px;
     background: #4EC5F7;
@@ -182,24 +180,22 @@ body {
 
 
 .banner-photo {
-    width: 450px;
+    width: 550px;
 }
 
 /* ======== We are gamer(wag) Styles ====== */
 .wag-section {
-    margin: 35px 150px 0px 150px;
+    margin: 35px 150px 50px 150px;
 }
 
 .wag-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.wag-image-area {}
-
 .wag-photo {
-    width: 650px;
+    width: 600px;
 }
 
 .wag-txt-area {
@@ -215,19 +211,70 @@ body {
     font-weight: 400;
     width: 450px;
 }
-#wag-our-purpose{
+
+#wag-our-purpose {
     font-size: 1rem;
     font-weight: 600;
 }
-.wag-txt-area>h2 {}
-
-.wag-btn {}
-
-
 
 
 
 /* === Online Games Funny Videos Section(ogfv) Styles === */
+
+.ogfv-section {
+    margin: 35px 150px 50px 150px;
+}
+
+.ogfv-container {}
+
+.ogfv-txt-area {}
+
+.ogfv-txt-area>h1 {
+    text-align: center;
+}
+
+.ogfv-txt-area>p {
+    color: #534C64;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 25px 0;
+}
+
+.ogfv-card-container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.ogfv-photo {
+    width: 250px;
+}
+
+.ogfv-card>p {
+    width: 250px;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
