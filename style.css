@@ -10,7 +10,6 @@
 
 body {
     font-family: 'Work Sans';
-    /* border: 1px solid #FF42A5; */
 }
 
 
@@ -19,86 +18,82 @@ body {
     color: #FF42A5;
 }
 
-.pink-btn {
-    border-radius: 48px;
-    background: #FF42A5;
-    padding: 21px 40px;
-    color: #FFF;
-    color: #FFF;
-    text-transform: uppercase;
-    border: 0;
-}
-
-.primary-title {
-    font-size: 48px;
-    font-weight: 700;
+.gradient-color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.pink-btn {
+    border-radius: 25px;
+    background: #FF42A5;
+    color: white;
+    border: 0;
+    padding: 12px 26px;
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.primary-title {}
+
 /* ============== Nav Styles ============== */
+.nav-section {
+    margin: 35px 150px 0px 150px;
+}
+
 .nav-container {
-    margin: 50px 240px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    align-items: center;
+}
+
+.nav-items li a {
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    object-fit: cover;
-    gap: 20px;
+    gap: 15px;
 }
 
 .logo-image {
-    width: 5.3rem;
-    cursor: pointer;
-}
-
-.logo-title {
-    font-size: 2.8rem;
-    /* margin-left: 10px; */
-    cursor: pointer;
-
-}
-
-.nav-items {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.nav-ul {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    list-style: none;
-    gap: 50px;
-}
-
-.nav-items li a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #3C354F;
+    object-fit: cover;
+    width: 60px;
     cursor: pointer;
 }
 
 .nav-follow-us-container {
-    width: 262px;
-    height: 56px;
-    font-size: 1.5rem;
-    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 20px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    border: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.logo-title {
+    cursor: pointer;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
 #cursor {
@@ -106,13 +101,12 @@ body {
 }
 
 .tik-tok-icon {
-    color: #000000;
     cursor: pointer;
 }
 
 .youtube-icon {
-    color: red;
     cursor: pointer;
+    color: rgba(246, 28, 13, 1);
 }
 
 
@@ -120,117 +114,80 @@ body {
 
 /* ============ Banner Styles ============ */
 .banner-container {
+    max-width: 100%;
     display: flex;
-    height: 700px;
+    align-items: center;
     justify-content: space-between;
 }
 
 .banner-txt-area {
-    display: flex;
-    flex-direction: column;
-    background-image: url(assets/images/banner/banner-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    padding: 130px 237px;
-    position: relative;
-    right: 23px;
-    gap: 22px;
-    overflow: hidden;
+    margin-left: 150px;
+
+}
+
+.banner-img-area {
+    margin-right: 150px;
 }
 
 .banner-txt-area>h3 {
     color: #0B0223;
-    text-align: left;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .banner-txt-area>h1 {
-    font-size: 5.9rem;
+    text-align: center;
+    font-size: 4rem;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
 }
 
 .banner-txt-area>p {
     color: #534C64;
-    font-size: 1.7rem;
+    text-align: center;
+    font-size: 1rem;
     font-weight: 500;
+    text-transform: lowercase;
 }
 
-.btn-area {
-    display: flex;
-    gap: 25px;
-}
+.btn-area {}
 
-.fa-solid {
-    color: #FF42A5;
-}
+.fa-solid {}
 
 .blue-btn {
+    border-radius: 25px;
+    background: #4EC5F7;
+    color: white;
+    border: 0;
+    padding: 12px 26px;
     color: #FFF;
+    font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
-    border-radius: 48px;
-    background: #4EC5F7;
-    padding: 21px 40px;
-    border: 0;
 }
 
-.banner-img-area {
-    width: 50%;
-}
 
 .banner-photo {
-    position: relative;
-    left: 65px;
-    height: 700px;
+    width: 450px;
 }
 
 /* ======== We are gamer(wag) Styles ====== */
-.wag-section {
-    height: 600px;
-    margin: 50px 240px;
-}
+.wag-section {}
 
-.wag-container {
-    display: flex;
-    align-items: center;
-}
+.wag-container {}
 
-.wag-txt-area {
-    width: 800px;
-    text-align: right;
-    padding: 150px 0px 150px 300px;
-}
+.wag-txt-area {}
 
-.wag-image-area {
-    width: 800px;
+.wag-image-area {}
 
-}
+.wag-txt-area>p {}
 
-.wag-txt-area>p {
-    color: #534C64;
-    text-align: right;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 30px;
-}
+.wag-txt-area>h4 {}
 
-.wag-txt-area>h4 {
-    color: #534C64;
-    font-size: 25px;
-    font-weight: 700;
-}
-
-.wag-btn {
-    position: relative;
-}
+.wag-btn {}
 
 
 
@@ -260,47 +217,7 @@ body {
 @media screen and (max-width: 425px) {
 
     /* ======= Nav Mobile style ======= */
-    .nav-container {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .nav-ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nav-section {
-        max-width: 425px;
-        margin: auto;
-    }
-
-    .nav-ul {
-        align-items: center;
-        gap: 30px;
-    }
-
-    .logo-container {
-        margin-bottom: 50px;
-    }
-
-    .nav-section {
-        padding: 0px;
-    }
-
-    .nav-follow-us-container {
-        width: 205px;
-        height: 44px;
-        font-size: 1.2rem;
-        font-weight: 500;
-        border-radius: 8px;
-        background: rgba(11, 2, 35, 0.10);
-        border: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 12px;
-    }
 
     /* ======= Baner Mobile style ======= */
 
@@ -311,14 +228,4 @@ body {
 
 
 /* =========== Medium Device Styles =========== */
-@media screen and (min-width: 425px) and (max-width: 768px) {
-    .nav-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .logo-container {
-        margin-bottom: 50px;
-    }
-
-}
+@media screen and (min-width: 425px) and (max-width: 768px) {}
