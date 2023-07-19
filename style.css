@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
 
 
-/* =========== Universal Styles =========== */
+/* ========= Universal Styles ======== */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 
-/* ============ Shared Styles ============ */
+/* ========= Shared Styles ========= */
 .pink-color {
     color: #FF42A5;
 }
@@ -30,7 +30,7 @@ body {
     background: #FF42A5;
     color: white;
     border: 0;
-    padding: 12px 26px;
+    padding: 15px 26px;
     color: #FFF;
     font-size: 0.9rem;
     font-weight: 600;
@@ -49,6 +49,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .nav-ul {
@@ -122,6 +123,9 @@ body {
 
 .banner-txt-area {
     margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
 }
 
@@ -131,14 +135,14 @@ body {
 
 .banner-txt-area>h3 {
     color: #0B0223;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .banner-txt-area>h1 {
-    text-align: center;
+    text-align: left;
     font-size: 4rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -147,13 +151,17 @@ body {
 
 .banner-txt-area>p {
     color: #534C64;
-    text-align: center;
+    text-align: left;
     font-size: 1rem;
     font-weight: 500;
     text-transform: lowercase;
 }
 
-.btn-area {}
+.btn-area {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
 
 .fa-solid {}
 
@@ -162,7 +170,7 @@ body {
     background: #4EC5F7;
     color: white;
     border: 0;
-    padding: 12px 26px;
+    padding: 15px 26px;
     color: #FFF;
     font-size: 0.9rem;
     font-weight: 600;
