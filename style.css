@@ -38,7 +38,11 @@ body {
 
 }
 
-.primary-title {}
+.primary-title {
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 /* ============== Nav Styles ============== */
 .nav-section {
@@ -49,7 +53,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .nav-ul {
@@ -115,7 +119,6 @@ body {
 
 /* ============ Banner Styles ============ */
 .banner-container {
-    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -183,19 +186,44 @@ body {
 }
 
 /* ======== We are gamer(wag) Styles ====== */
-.wag-section {}
+.wag-section {
+    margin: 35px 150px 0px 150px;
+}
 
-.wag-container {}
-
-.wag-txt-area {}
+.wag-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .wag-image-area {}
 
-.wag-txt-area>p {}
+.wag-photo {
+    width: 650px;
+}
 
-.wag-txt-area>h4 {}
+.wag-txt-area {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wag-txt-area>p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 450px;
+}
+#wag-our-purpose{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.wag-txt-area>h2 {}
 
 .wag-btn {}
+
+
 
 
 
