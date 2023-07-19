@@ -218,16 +218,12 @@ body {
 }
 
 
-
 /* === Online Games Funny Videos Section(ogfv) Styles === */
 
 .ogfv-section {
     margin: 35px 150px 50px 150px;
 }
 
-.ogfv-container {}
-
-.ogfv-txt-area {}
 
 .ogfv-txt-area>h1 {
     text-align: center;
@@ -277,20 +273,22 @@ body {
 
 /* == Play Instantly Section(pi) Styles == */
 
-.pi-section{
+.pi-section {
     margin: 35px 150px 50px 150px;
 }
 
-.pi-container{
+.pi-container {
     display: flex;
     justify-content: space-around;
 }
+
 .pi-txt-area {
     width: 350px;
     margin: auto;
     text-align: right;
 }
-.pi-txt-area > h1{
+
+.pi-txt-area>h1 {
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -300,15 +298,18 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.pi-img-container{
+
+.pi-img-container {
     position: relative;
     left: 55px;
 }
-.pi-img-1{
+
+.pi-img-1 {
     width: 400px;
     border-radius: 8px;
 }
-.pi-img-2{
+
+.pi-img-2 {
     width: 200px;
     border-radius: 5px;
     border: 2px solid white;
@@ -320,28 +321,31 @@ body {
 
 
 /* == Other Games Section(og) Styles ==== */
-.og-section{
+.og-section {
     margin-top: 200px;
     position: relative;
     left: 210px;
 }
-.og-container-1{
+
+.og-container-1 {
     display: flex;
-}
-.og-container-2{
-    display: flex;
-}
-.all-games{
-    display: flex;
-    align-items: center;
-    
 }
 
-.all-games > span{
+.og-container-2 {
+    display: flex;
+}
+
+.all-games {
+    display: flex;
+    align-items: center;
+
+}
+
+.all-games>span {
     margin-right: 15px;
 }
 
-.all-games:hover{
+.all-games:hover {
     border: 2px solid #FF42A5;
     border-radius: 30px;
     color: #F948B2;
@@ -351,37 +355,43 @@ body {
 
 /* ====== Footer Section Styles ========= */
 
-.footer-section{
+.footer-section {
     margin-top: 100px;
     height: 60vh;
     background: #0B0223;
 }
-.foot-logo-container{
+
+.foot-logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-top: 30px;
-    
+    padding-top: 100px;
+
 }
-.white{
+
+.white {
     color: white;
 }
-.foot-logo-imgage{
+
+.foot-logo-imgage {
     object-fit: cover;
     cursor: pointer;
 }
-.our-story{
+
+.our-story {
     color: white;
     display: flex;
     justify-content: center;
     gap: 25px;
     padding-top: 20px;
 }
+
 .our-story>p {
     cursor: pointer;
 }
-.social-icon{
+
+.social-icon {
     color: white;
     display: flex;
     justify-content: center;
@@ -389,21 +399,24 @@ body {
     padding: 20px;
 
 }
-.fa-brands{
+
+.fa-brands {
     cursor: pointer;
 }
 
-.privecy-policy{
+.privecy-policy {
     color: white;
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 20px;
 }
-.privecy-policy>small{
+
+.privecy-policy>small {
     cursor: pointer;
 }
-.copyright{
+
+.copyright {
     color: grey;
     text-align: center;
 }
@@ -411,21 +424,18 @@ body {
 
 
 
-/* ***************** Responsive ****************** */
+/* *** Responsive *** */
 
-/* =========== Mobile Device Styles =========== */
+/* ======= Mobile Device Styles ======== */
 @media screen and (max-width: 425px) {
 
-    /* ======= Nav Mobile style ======= */
+    /* ====== Nav Mobile style ====== */
 
 
-    /* ======= Baner Mobile style ======= */
-
+    /* ====== Banner Mobile style ====== */
 
 }
 
 
-
-
-/* =========== Medium Device Styles =========== */
+/* ======== Medium Device Styles ======== */
 @media screen and (min-width: 425px) and (max-width: 768px) {}
