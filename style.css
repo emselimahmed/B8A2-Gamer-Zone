@@ -38,7 +38,6 @@ body {
 .logo-image {
     width: 5.3rem;
     cursor: pointer;
-
 }
 
 .logo-title {
@@ -51,14 +50,13 @@ body {
     display: flex;
     align-items: center;
     gap: 50px;
-
 }
 
 .nav-ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 50px;
-
 }
 
 .nav-items li a {
@@ -67,10 +65,9 @@ body {
     font-weight: 500;
     color: #3C354F;
     cursor: pointer;
-    
 }
 
-.nav-follow-us {
+.nav-follow-us-container {
     width: 262px;
     height: 56px;
     font-size: 1.5rem;
@@ -78,20 +75,22 @@ body {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     border: 0;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
 
+#cursor {
+    cursor: pointer;
+}
+
 .tik-tok-icon {
     color: #000000;
     cursor: pointer;
-    
-    
 }
-.youtube-icon{
+
+.youtube-icon {
     color: red;
     cursor: pointer;
 }
